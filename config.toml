@@ -395,6 +395,14 @@ match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|
 blur = true
 blur_ignore_alpha = 0.5
 blur_popups = true
+blur_optimized = true
+
+[[layer_rule]]
+match.namespace = "^noctalia-(bar-[^\"]+|attached-panel|desktop-widget-[^\"]*)$"
+blur_optimized = true
+
+[[layer_rule]]
+match.namespace = "^noctalia-(notification|dock|panel|osd)$"
 blur_optimized = false
 
 [[layer_rule]]
