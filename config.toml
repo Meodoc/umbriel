@@ -72,6 +72,10 @@ hdr = "auto"
 
 # ==============================================================================
 # Appearance
+[appearance]
+prefer_no_csd = true
+corner_radius = 12
+
 # Blur uses a smaller radius than the built-in default.
 # https://docs.noctalia.dev/umbriel/appearance/
 [appearance.blur]
@@ -212,6 +216,7 @@ follows_focus = false
 # https://docs.noctalia.dev/umbriel/layout/
 [layout]
 extent_presets = [0.333, 0.5, 0.667]
+gap = 12
 
 [layout.scrolling]
 default_extent_fraction = 0.5
