@@ -117,6 +117,7 @@ radius = 3
 [input.keyboard]
 numlock_toggle = true
 layout = "de"
+variant = "nodeadkeys"
 
 # Focus can follow the pointer across tiled, floating, and pinned windows.
 [input.focus]
