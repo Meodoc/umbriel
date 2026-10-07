@@ -136,6 +136,9 @@ hide_when_typing = true
 hide_timeout_ms = 5000
 follows_focus = false
 
+[input.touchpad]
+natural_scroll = true
+
 # ==============================================================================
 # Keybinds
 # Defining this table replaces the built-in bind set, so every active bind that
