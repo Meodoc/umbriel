@@ -249,6 +249,9 @@ follows_focus = false
 "XF86AudioPrev"  = "spawn:playerctl previous"
 "XF86AudioNext"  = "spawn:playerctl next"
 
+# Lock session
+"Mod+Ctrl+Alt+L" = "spawn:/home/lukas/.local/bin/noctalia-lock-and-off-v5"
+
 # ==============================================================================
 # Layout
 # New scrolling-layout windows start at half the output width. Without this
