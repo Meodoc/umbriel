@@ -325,6 +325,13 @@ default_position = { x = 0, y = 0, anchor = "bottom_right" }
 default_focused = false
 default_pinned = true
 
+[[window_rule]]
+match.title = "Bitwarden Password Manager"
+match.app_id = "zen"
+default_position = { x = 100, y = 100, anchor = "top_right" }
+default_floating_size_px = { width = 300, height = 500 }
+default_floating = true
+
 # Keep game menus inside their window; a focus or workspace keybind releases the pointer.
 # [[window_rule]]
 # match.app_id = "^steam_app_.*$"
