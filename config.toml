@@ -381,6 +381,11 @@ blur_ignore_alpha = 0.5
 blur_popups = true
 blur_optimized = false
 
+[[layer_rule]]
+match.namespace = "^launcher$"
+blur = true
+blur_optimized = false
+
 # ==============================================================================
 # Overview
 # Built-in overview and animation values are used. The top-left hot corner opens
