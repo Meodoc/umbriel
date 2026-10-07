@@ -209,6 +209,18 @@ follows_focus = false
 "Mod+Ctrl+Space" = { action = "window-restore-from-scratchpad", repeat = false }
 "Mod+Tab" = "scratchpad-focus-next"
 
+# Media controls
+"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up", allow_when_locked = true }
+"XF86AudioLowerVolume" = { action = "spawn:noctalia msg volume-down", allow_when_locked = true }
+"XF86AudioMute"        = { action = "spawn:noctalia msg volume-mute", allow_when_locked = true }
+"XF86AudioMicMute"     = { action = "spawn:noctalia msg mic-mute", allow_when_locked = true }
+
+"XF86AudioPlay"  = "spawn:playerctl play-pause"
+"XF86AudioPause" = "spawn:playerctl play-pause"
+"XF86AudioStop"  = "spawn:playerctl stop"
+"XF86AudioPrev"  = "spawn:playerctl previous"
+"XF86AudioNext"  = "spawn:playerctl next"
+
 # ==============================================================================
 # Layout
 # New scrolling-layout windows start at half the output width. Without this
