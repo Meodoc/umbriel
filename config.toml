@@ -123,6 +123,11 @@ follows_mouse = true
 # enabled = true
 # map_to_output = "eDP-1"
 
+[input.cursor]
+hide_when_typing = true
+hide_timeout_ms = 5000
+follows_focus = false
+
 # ==============================================================================
 # Keybinds
 # Defining this table replaces the built-in bind set, so every active bind that
