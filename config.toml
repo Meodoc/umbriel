@@ -56,12 +56,19 @@ files = []
 # Outputs are machine-specific. Run `umbriel outputs` to find names and modes.
 # https://docs.noctalia.dev/umbriel/outputs/
 #
-# [output.DP-1]
-# mode = "2560x1440@144"
-# position = [0, 0]
-# scale = 1.25
-# vrr = "fullscreen"
-# hdr = "auto"
+[output.DP-1]
+mode = "1920x1200@60.003"
+position = [0, 0]
+scale = 1.0
+vrr = "fullscreen"
+hdr = "auto"
+
+[output.DP-2]
+mode = "5120x1440@59.977"
+position = [-5120, -240]
+scale = 1.0
+vrr = "fullscreen"
+hdr = "auto"
 
 # ==============================================================================
 # Appearance
