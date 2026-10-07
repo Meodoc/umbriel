@@ -115,8 +115,8 @@ numlock_toggle = true
 layout = "de"
 
 # Focus can follow the pointer across tiled, floating, and pinned windows.
-# [input.focus]
-# follows_mouse = true
+[input.focus]
+follows_mouse = true
 
 # Confine touch input to one display.
 # [input.touch]
