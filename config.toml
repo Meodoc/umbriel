@@ -223,6 +223,10 @@ natural_scroll = true
 "Mod+Period"        = "window-consume-from-right"
 "Mod+Ctrl+Comma"    = "window-consume-or-expel-left"
 "Mod+Ctrl+Period"   = "window-consume-or-expel-right"
+"Mod+Minus"         = "window-modify-width-right:-0.05"
+"Mod+Plus"          = "window-modify-width-right:0.05"
+"Mod+Shift+Minus"   = "window-modify-height-down:-0.05"
+"Mod+Shift+Plus"    = "window-modify-height-down:0.05"
 "Mod+W"             = { action = "column-toggle-tabbed", repeat = false }
 "Mod+Alt+Right"     = "column-focus-tab-next"
 "Mod+Alt+Left"      = "column-focus-tab-previous"
