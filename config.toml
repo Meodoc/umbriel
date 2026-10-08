@@ -215,6 +215,8 @@ natural_scroll = true
 "Mod+P"             = { action = "window-toggle-pinned",         repeat = false }
 "Mod+F"             = { action = "window-toggle-maximize",       repeat = false }
 "Mod+Shift+F"       = { action = "window-toggle-fullscreen",     repeat = false }
+"Mod+C"             = "column-center"
+"Mod+Shift+C"       = "window-center"
 "Mod+R"             = "window-cycle-primary-extent"
 "Mod+Shift+R"       = "window-cycle-primary-extent-back"
 "Mod+Comma"         = "window-consume-left"
