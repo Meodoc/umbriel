@@ -232,6 +232,8 @@ natural_scroll = true
 "Mod+F1"            = "workspace-set-layout:scrolling"
 "Mod+F2"            = "workspace-set-layout:dwindle"
 "Mod+F3"            = "workspace-set-layout:master"
+"Mod+M"             = "spawn:noctalia msg bar-toggle \"$(umbriel workspaces --json | jq -r '.[] | select(.focused).output')\""
+"Mod+Shift+M"       = "spawn:noctalia msg bar-toggle"
 
 # Workspaces
 "Mod+1" = "workspace-switch:1"
