@@ -213,8 +213,8 @@ natural_scroll = true
 "Mod+T"             = { action = "window-toggle-floating", repeat = false }
 "Mod+Shift+T"       = { action = "window-focus-switch-floating", repeat = false }
 "Mod+P"             = { action = "window-toggle-pinned", repeat = false }
-"Mod+F"             = { action = "window-toggle-fullscreen", repeat = false }
-"Mod+Ctrl+F"        = { action = "window-toggle-maximize", repeat = false }
+"Mod+F"             = { action = "window-toggle-maximize", repeat = false }
+"Mod+Shift+F"       = { action = "window-toggle-fullscreen", repeat = false }
 "Mod+R"             = "window-cycle-primary-extent"
 "Mod+Shift+R"       = "window-cycle-primary-extent-back"
 "Mod+Comma"         = "window-consume-left"
