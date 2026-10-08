@@ -158,9 +158,9 @@ natural_scroll = true
 [keybinds]
 
 # Applications and session
-"Mod" = "spawn:noctalia msg panel-toggle launcher"
-"Mod+Q" = { action = "window-close", repeat = false }
-"Mod+Escape" = "session-quit"
+"Mod"              = "spawn:noctalia msg panel-toggle launcher"
+"Mod+Q"            = { action = "window-close", repeat = false }
+"Mod+Escape"       = "session-quit"
 "Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
 
 "Mod+Return"        = { action = "spawn:alacritty",                               repeat = false }
@@ -210,11 +210,11 @@ natural_scroll = true
 "Mod+Ctrl+Shift+L"     = "column-move-to-output-right"
 
 # Window state and layout
-"Mod+T"             = { action = "window-toggle-floating", repeat = false }
+"Mod+T"             = { action = "window-toggle-floating",       repeat = false }
 "Mod+Shift+T"       = { action = "window-focus-switch-floating", repeat = false }
-"Mod+P"             = { action = "window-toggle-pinned", repeat = false }
-"Mod+F"             = { action = "window-toggle-maximize", repeat = false }
-"Mod+Shift+F"       = { action = "window-toggle-fullscreen", repeat = false }
+"Mod+P"             = { action = "window-toggle-pinned",         repeat = false }
+"Mod+F"             = { action = "window-toggle-maximize",       repeat = false }
+"Mod+Shift+F"       = { action = "window-toggle-fullscreen",     repeat = false }
 "Mod+R"             = "window-cycle-primary-extent"
 "Mod+Shift+R"       = "window-cycle-primary-extent-back"
 "Mod+Comma"         = "window-consume-left"
@@ -230,10 +230,10 @@ natural_scroll = true
 "Mod+WheelDown"     = "window-focus-right"
 "Mod+O"             = { action = "overview-toggle", repeat = false }
 "Mod+F1"            = { action = "workspace-set-layout:scrolling", repeat = false }
-"Mod+F2"            = { action = "workspace-set-layout:dwindle", repeat = false }
-"Mod+F3"            = { action = "workspace-set-layout:master", repeat = false }
+"Mod+F2"            = { action = "workspace-set-layout:dwindle",   repeat = false }
+"Mod+F3"            = { action = "workspace-set-layout:master",    repeat = false }
 "Mod+M"             = { action = "spawn:noctalia msg bar-toggle \"$(umbriel workspaces --json | jq -r '.[] | select(.focused).output')\"", repeat = false }
-"Mod+Shift+M"       = { action = "spawn:noctalia msg bar-toggle", repeat = false }
+"Mod+Shift+M"       = { action = "spawn:noctalia msg bar-toggle",  repeat = false }
 
 # Workspaces
 "Mod+1" = "workspace-switch:1"
@@ -260,22 +260,22 @@ natural_scroll = true
 "Mod+Ctrl+I" = "column-move-to-workspace-previous"
 
 # Scratchpad
-"Mod+Shift+Space" = { action = "window-move-to-scratchpad", repeat = false }
-"Mod+Space" = "scratchpad-toggle"
-"Mod+Ctrl+Space" = { action = "window-restore-from-scratchpad", repeat = false }
-"Mod+Tab" = "scratchpad-focus-next"
+"Mod+Shift+Space" = { action = "window-move-to-scratchpad",      repeat = false }
+"Mod+Space"       = "scratchpad-toggle"
+"Mod+Ctrl+Space"  = { action = "window-restore-from-scratchpad", repeat = false }
+"Mod+Tab"         = "scratchpad-focus-next"
 
 # Media controls
-"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up", allow_when_locked = true }
+"XF86AudioRaiseVolume" = { action = "spawn:noctalia msg volume-up",   allow_when_locked = true }
 "XF86AudioLowerVolume" = { action = "spawn:noctalia msg volume-down", allow_when_locked = true }
 "XF86AudioMute"        = { action = "spawn:noctalia msg volume-mute", allow_when_locked = true }
-"XF86AudioMicMute"     = { action = "spawn:noctalia msg mic-mute", allow_when_locked = true }
+"XF86AudioMicMute"     = { action = "spawn:noctalia msg mic-mute",    allow_when_locked = true }
 
 "XF86AudioPlay"  = { action = "spawn:playerctl play-pause", allow_when_locked = true }
 "XF86AudioPause" = { action = "spawn:playerctl play-pause", allow_when_locked = true }
-"XF86AudioStop"  = { action = "spawn:playerctl stop", allow_when_locked = true }
-"XF86AudioPrev"  = { action = "spawn:playerctl previous", allow_when_locked = true }
-"XF86AudioNext"  = { action = "spawn:playerctl next", allow_when_locked = true }
+"XF86AudioStop"  = { action = "spawn:playerctl stop",       allow_when_locked = true }
+"XF86AudioPrev"  = { action = "spawn:playerctl previous",   allow_when_locked = true }
+"XF86AudioNext"  = { action = "spawn:playerctl next",       allow_when_locked = true }
 
 # Lock session
 "Mod+Ctrl+Alt+L" = { action = "spawn:/home/lukas/.local/bin/noctalia-lock-and-off-v5", repeat = false }
