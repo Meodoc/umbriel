@@ -271,11 +271,11 @@ natural_scroll = true
 "XF86AudioMute"        = { action = "spawn:noctalia msg volume-mute", allow_when_locked = true }
 "XF86AudioMicMute"     = { action = "spawn:noctalia msg mic-mute", allow_when_locked = true }
 
-"XF86AudioPlay"  = "spawn:playerctl play-pause"
-"XF86AudioPause" = "spawn:playerctl play-pause"
-"XF86AudioStop"  = "spawn:playerctl stop"
-"XF86AudioPrev"  = "spawn:playerctl previous"
-"XF86AudioNext"  = "spawn:playerctl next"
+"XF86AudioPlay"  = { action = "spawn:playerctl play-pause", allow_when_locked = true }
+"XF86AudioPause" = { action = "spawn:playerctl play-pause", allow_when_locked = true }
+"XF86AudioStop"  = { action = "spawn:playerctl stop", allow_when_locked = true }
+"XF86AudioPrev"  = { action = "spawn:playerctl previous", allow_when_locked = true }
+"XF86AudioNext"  = { action = "spawn:playerctl next", allow_when_locked = true }
 
 # Lock session
 "Mod+Ctrl+Alt+L" = { action = "spawn:/home/lukas/.local/bin/noctalia-lock-and-off-v5", repeat = false }
