@@ -210,29 +210,28 @@ natural_scroll = true
 "Mod+Ctrl+Shift+L"     = "column-move-to-output-right"
 
 # Window state and layout
-"Mod+T" = { action = "window-toggle-floating", repeat = false }
-"Mod+Shift+T" = { action = "window-focus-switch-floating", repeat = false }
-"Mod+P" = { action = "window-toggle-pinned", repeat = false }
-"Mod+M" = { action = "window-toggle-maximize-to-edges", repeat = false }
-"Mod+F" = { action = "window-toggle-fullscreen", repeat = false }
-"Mod+Ctrl+F" = { action = "window-toggle-maximize", repeat = false }
-"Mod+R" = "window-cycle-primary-extent"
-"Mod+Shift+R" = "window-cycle-primary-extent-back"
-"Mod+Comma" = "window-consume-left"
-"Mod+Period" = "window-consume-right"
-"Mod+Ctrl+Comma" = "window-consume-from-left"
-"Mod+Ctrl+Period" = "window-consume-from-right"
-"Mod+W" = { action = "column-toggle-tabbed", repeat = false }
-"Mod+Alt+Right" = "column-focus-tab-next"
-"Mod+Alt+Left" = "column-focus-tab-previous"
-"Mod+Alt+L" = "column-focus-tab-next"
-"Mod+Alt+H" = "column-focus-tab-previous"
-"Mod+WheelUp" = "window-focus-left"
-"Mod+WheelDown" = "window-focus-right"
-"Mod+O" = { action = "overview-toggle", repeat = false }
-"Mod+F1" = "workspace-set-layout:scrolling"
-"Mod+F2" = "workspace-set-layout:dwindle"
-"Mod+F3" = "workspace-set-layout:master"
+"Mod+T"             = { action = "window-toggle-floating", repeat = false }
+"Mod+Shift+T"       = { action = "window-focus-switch-floating", repeat = false }
+"Mod+P"             = { action = "window-toggle-pinned", repeat = false }
+"Mod+F"             = { action = "window-toggle-fullscreen", repeat = false }
+"Mod+Ctrl+F"        = { action = "window-toggle-maximize", repeat = false }
+"Mod+R"             = "window-cycle-primary-extent"
+"Mod+Shift+R"       = "window-cycle-primary-extent-back"
+"Mod+Comma"         = "window-consume-left"
+"Mod+Period"        = "window-consume-right"
+"Mod+Ctrl+Comma"    = "window-consume-from-left"
+"Mod+Ctrl+Period"   = "window-consume-from-right"
+"Mod+W"             = { action = "column-toggle-tabbed", repeat = false }
+"Mod+Alt+Right"     = "column-focus-tab-next"
+"Mod+Alt+Left"      = "column-focus-tab-previous"
+"Mod+Alt+L"         = "column-focus-tab-next"
+"Mod+Alt+H"         = "column-focus-tab-previous"
+"Mod+WheelUp"       = "window-focus-left"
+"Mod+WheelDown"     = "window-focus-right"
+"Mod+O"             = { action = "overview-toggle", repeat = false }
+"Mod+F1"            = "workspace-set-layout:scrolling"
+"Mod+F2"            = "workspace-set-layout:dwindle"
+"Mod+F3"            = "workspace-set-layout:master"
 
 # Workspaces
 "Mod+1" = "workspace-switch:1"
