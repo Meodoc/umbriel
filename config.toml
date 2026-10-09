@@ -59,7 +59,7 @@ autostart = [
 # Outputs are machine-specific. Run `umbriel outputs` to find names and modes.
 # https://docs.noctalia.dev/umbriel/outputs/
 #
-[output.DP-1]
+[output.eDP-1]
 mode = "1920x1200@60.003"
 position = [0, 0]
 scale = 1.0
@@ -68,10 +68,11 @@ hdr = "auto"
 
 [output.DP-2]
 mode = "5120x1440@59.977"
-position = [-5120, -240]
+position = [-5120, -120]
 scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
+focus_at_startup = true
 
 # ==============================================================================
 # Appearance
