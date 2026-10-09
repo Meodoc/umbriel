@@ -194,6 +194,7 @@ natural_scroll = true
 "Mod+Shift+J"     = "output-focus-up"
 "Mod+Shift+K"     = "output-focus-down"
 "Mod+Shift+L"     = "output-focus-right"
+"Mod+asciicircum" = "workspace-focus-last"
 
 # Movement 
 "Mod+Ctrl+Left"  = "column-move-left"
