@@ -25,7 +25,7 @@ files = []
 # https://docs.noctalia.dev/umbriel/configuration/#general
 [general]
 autostart = [
-    "noctalia", "librepods",
+    "noctalia",
     "noctalia-widgets-autohide-umbriel"
 ]
 # xwayland = false
