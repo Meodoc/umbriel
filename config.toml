@@ -159,12 +159,13 @@ natural_scroll = true
 [keybinds]
 
 # Applications and session
-"Mod"              = "spawn:noctalia msg panel-toggle launcher"
-"Mod+Q"            = { action = "window-close", repeat = false }
-"Mod+Escape"       = "session-quit"
-"Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
-"Print"            = { action = "spawn:noctalia msg screenshot-fullscreen", repeat = false }
-"Alt+Print"        = { action = "spawn:noctalia msg screenshot-region", repeat = false }
+"Mod"                = "spawn:noctalia msg panel-toggle launcher"
+"Mod+Q"              = { action = "window-close", repeat = false }
+"Mod+Escape"         = "session-quit"
+"Mod+Shift+Escape"   = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
+"Print"              = { action = "spawn:noctalia msg screenshot-fullscreen", repeat = false }
+"Alt+Print"          = { action = "spawn:noctalia msg screenshot-region", repeat = false }
+"Mod+Shift+question" = { action = "cheatsheet-toggle", repeat = false }
 
 "Mod+Return"        = { action = "spawn:alacritty",                               repeat = false }
 "Mod+D"             = { action = "spawn:fuzzel",                                  repeat = false }
