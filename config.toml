@@ -179,6 +179,8 @@ natural_scroll = true
 "Mod+N"             = { action = "spawn:obsidian obsidian://open?vault=the-hole", repeat = false }
 "Mod+Shift+N"       = { action = "spawn:obsidian obsidian://open?vault=notes",    repeat = false }
 
+"Mod+Shift+P"       = { action = "spawn:evince /home/lukas/Documents/master-thesis/thesis/src/main-thesis.pdf", repeat = false }
+
 # Focus
 "Mod+Left"  = "window-focus-left"
 "Mod+Down"  = "window-focus-down"
