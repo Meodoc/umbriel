@@ -269,6 +269,8 @@ natural_scroll = true
 "Mod+Ctrl+9" = "window-move-to-workspace:9"
 "Mod+Ctrl+U" = "column-move-to-workspace-next"
 "Mod+Ctrl+I" = "column-move-to-workspace-previous"
+"Mod+Shift+U" = "workspace-move-down"
+"Mod+Shift+I" = "workspace-move-up"
 
 # Scratchpad
 "Mod+Shift+Space" = { action = "window-move-to-scratchpad",      repeat = false }
