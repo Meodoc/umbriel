@@ -68,6 +68,15 @@ scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
 
+# Personnal monitor (acer)
+[output.DP-1]
+mode = "1920x1080@174.545"
+position = [-1920, 60]
+scale = 1.0
+vrr = "fullscreen"
+hdr = "auto"
+
+# Work widescreen monitor
 [output.DP-2]
 mode = "5120x1440@59.977"
 position = [-5120, -120]
@@ -75,6 +84,11 @@ scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
 focus_at_startup = true
+
+# KHG beamer
+[output.HDMI-A-1]
+position = [0, 0]
+scale = 1.0
 
 # ==============================================================================
 # Appearance
