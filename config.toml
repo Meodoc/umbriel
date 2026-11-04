@@ -76,14 +76,29 @@ scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
 
-# Work widescreen monitor
+# Work monitor (wide screen)
 [output.DP-2]
 mode = "5120x1440@59.977"
 position = [-5120, -120]
 scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
-focus_at_startup = true
+
+# Work montitor (multi-monitor) left
+[output.DP-5]
+mode = "2560x1440@120.000"
+position = [-2560, -124]
+scale = 1.0
+vrr = "fullscreen"
+hdr = "auto"
+
+# Work montitor (multi-monitor) right
+[output.DP-7]
+mode = "2560x1440@120.000"
+position = [-5120, -124]
+scale = 1.0
+vrr = "fullscreen"
+hdr = "auto"
 
 # KHG beamer
 [output.HDMI-A-1]
