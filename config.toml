@@ -13,10 +13,10 @@
 # Optional split configuration
 # https://docs.noctalia.dev/umbriel/configuration/#include
 [include]
-files = ["noctalia.toml"]
+files = []
 
 [include.optional]
-files = []
+files = ["noctalia.toml"]
 
 # ==============================================================================
 # General
