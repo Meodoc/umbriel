@@ -68,10 +68,10 @@ scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
 
-# Personnal monitor (acer)
+# Vienna home monitor (AOC)
 [output.DP-1]
-mode = "1920x1080@174.545"
-position = [-1920, 60]
+mode = "1920x1080@120.000"
+position = [1920, 60]
 scale = 1.0
 vrr = "fullscreen"
 hdr = "auto"
